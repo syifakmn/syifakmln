@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detail project portfolio - Robby William Pascal">
+    <title>Project Detail - Robby William Pascal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Robby William Pascal</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#home" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <!-- Back Button -->
+            <a href="index.html#portfolio" class="back-button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                Kembali ke Portfolio
+            </a>
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <div class="project-category" id="projectCategory">Loading...</div>
+                <h1 class="project-title" id="projectTitle">Loading...</h1>
+                <p class="project-description" id="projectDescription">Loading...</p>
+            </div>
+
+            <!-- Project Info -->
+            <div class="project-info-grid">
+                <div class="project-info-item">
+                    <h3>Client</h3>
+                    <p id="projectClient">-</p>
+                </div>
+                <div class="project-info-item">
+                    <h3>Year</h3>
+                    <p id="projectYear">-</p>
+                </div>
+                <div class="project-info-item">
+                    <h3>Role</h3>
+                    <p id="projectRole">-</p>
+                </div>
+                <div class="project-info-item">
+                    <h3>Tools</h3>
+                    <p id="projectTools">-</p>
+                </div>
+            </div>
+
+            <!-- Project Images Grid -->
+            <div class="project-images-grid" id="projectImages">
+                <!-- Images will be loaded dynamically -->
+            </div>
+
+            <!-- Project Details -->
+            <div class="project-details">
+                <div class="project-detail-section">
+                    <h2>Challenge</h2>
+                    <p id="projectChallenge">Loading...</p>
+                </div>
+                <div class="project-detail-section">
+                    <h2>Solution</h2>
+                    <p id="projectSolution">Loading...</p>
+                </div>
+                <div class="project-detail-section">
+                    <h2>Result</h2>
+                    <p id="projectResult">Loading...</p>
+                </div>
+            </div>
+
+            <!-- Navigation to Other Projects -->
+            <div class="project-navigation">
+                <h2>Project Lainnya</h2>
+                <div class="related-projects" id="relatedProjects">
+                    <!-- Related projects will be loaded dynamically -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Robby William Pascal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="projects-data.js"></script>
+    <script src="project-detail.js"></script>
+</body>
+
+</html>
